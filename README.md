@@ -2,6 +2,15 @@
   <img src="gfx/menu/logo.png" alt="Scratch Everywhere! logo" />
 </p>
 
+<p align="center">
+<a href="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-3ds.yml"><img src="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-3ds.yml/badge.svg" alt="3DS Nightly Build"></a>
+<a href="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-wiiu.yml"><img src="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-wiiu.yml/badge.svg" alt="Wii U Nightly Build"></a>
+<a href="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-wii.yml"><img src="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-wii.yml/badge.svg" alt="Wii Nightly Build"></a>
+<a href="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-gamecube.yml"><img src="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-gamecube.yml/badge.svg" alt="GameCube Nightly Build"></a>
+<a href="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-switch.yml"><img src="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-switch.yml/badge.svg" alt="Switch Nightly Build"></a>
+<a href="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-vita.yml"><img src="https://github.com/NateXS/Scratch-Everywhere/actions/workflows/nightly-vita.yml/badge.svg" alt="Vita Nightly Build"></a>
+</p>
+
 A work-in-progress runtime made in C++ aimed to bring most Scratch 3 projects over to 6-8th-generation console and handheld platforms (and more)!
 
 ![Runtime running a Scratch project on Wii U, Wii, and 3DS](scratchcats3ds.gif)
@@ -85,7 +94,7 @@ As this is in a very work in progress state, you will encounter many bugs, crash
 
 - All say and think blocks
 - Most costume effects;
-	- Only the `Ghost` costume effect is supported
+	- Only the `Ghost` and `Brightness` costume effects are supported
 - `Pitch` and `Pan left-right` sound effects
 - When loudness > ___
 - All color touching blocks
